@@ -1,0 +1,7 @@
+<resources>
+<style name="CheckboxStyle" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">#333333</item>
+    <!-- Add more attributes as needed -->
+</style>
+    </resources>

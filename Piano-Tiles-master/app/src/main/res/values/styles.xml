@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom SeekBar Style -->
+    <style name="CustomSeekBar" parent="Widget.AppCompat.SeekBar.Discrete">
+        <item name="colorControlNormal">#454545</item> <!-- Thumb color -->
+        <item name="colorControlActivated">#454545</item> <!-- Progress color -->
+        <item name="android:progressDrawable">@drawable/custom_progress_drawable</item>
+    </style>
+
+    <!-- ... (other styles or resources) -->
+
+</resources>

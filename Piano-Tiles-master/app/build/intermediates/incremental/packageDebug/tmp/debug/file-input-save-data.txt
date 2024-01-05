@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Dec 18 04:57:41 SGT 2023
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\User\\AndroidStudioProjects\\Piano-Tiles-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

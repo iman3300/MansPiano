@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <!-- Start Button -->
+
+    <!-- Settings Button -->
+    <!-- Start Button -->
+
+    <!-- Settings Button -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo2" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+android:layout_marginTop="50dp"
+        android:background="@drawable/curve"
+        android:backgroundTint="#454545"
+        android:elevation="8dp"
+        android:onClick="onButtonClick"
+        android:text="Start"
+        android:textColor="#FFFFFF" />
+
+    <!-- Quit Button -->
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/curve"
+        android:backgroundTint="#454545"
+        android:elevation="8dp"
+        android:onClick="onButtonClick"
+        android:text="Settings"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/curve"
+        android:backgroundTint="#454545"
+        android:elevation="8dp"
+        android:onClick="onButtonClick"
+        android:text="Quit"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
